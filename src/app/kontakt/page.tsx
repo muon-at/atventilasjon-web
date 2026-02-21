@@ -41,9 +41,7 @@ export default function Kontakt() {
                     Telefon
                   </h3>
                   <p className="text-[#475569] ml-11">
-                    <a href="tel:22xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                      22 XX XX XX
-                    </a>
+                    Ring oss: kontakt for nummer
                   </p>
                   <p className="text-[#64748b] text-sm ml-11 mt-1">
                     Mandag - Fredag: 08:00 - 16:00
@@ -87,143 +85,35 @@ export default function Kontakt() {
       {/* Office Locations */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Våre kontorer</h2>
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Vårt kontor</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Oslo */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Oslo (Hovedkontor)</h3>
-              <div className="space-y-2 text-[#475569]">
+          <div className="max-w-2xl mx-auto">
+            {/* Risør - Hovedkontor */}
+            <div className="bg-[#FAFAFA] p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-2xl font-bold text-[#0F172A] mb-6">AT Ventilasjon AS (Hovedkontor)</h3>
+              <div className="space-y-3 text-[#475569]">
                 <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Eksempelveien 1<br />0100 Oslo</span>
+                  <span className="mr-3 text-xl">📍</span>
+                  <span>Rugdeveien 1<br />4956 Risør</span>
                 </p>
                 <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:22xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    22 XX XX XX
+                  <span className="mr-3 text-xl">📞</span>
+                  <span>Ring oss: kontakt for nummer</span>
+                </p>
+                <p className="flex items-start">
+                  <span className="mr-3 text-xl">✉️</span>
+                  <a href="mailto:post@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
+                    post@atventilasjon.no
                   </a>
                 </p>
                 <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:oslo@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    oslo@atventilasjon.no
-                  </a>
+                  <span className="mr-3 text-xl">🏢</span>
+                  <span>Org.nr: 935 684 862</span>
                 </p>
               </div>
-            </div>
-
-            {/* Bergen */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Bergen</h3>
-              <div className="space-y-2 text-[#475569]">
-                <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Bergensveien 2<br />5000 Bergen</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:55xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    55 XX XX XX
-                  </a>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:bergen@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    bergen@atventilasjon.no
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Trondheim */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Trondheim</h3>
-              <div className="space-y-2 text-[#475569]">
-                <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Trondheimsgata 3<br />7000 Trondheim</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:73xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    73 XX XX XX
-                  </a>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:trondheim@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    trondheim@atventilasjon.no
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Stavanger */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Stavanger</h3>
-              <div className="space-y-2 text-[#475569]">
-                <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Stavangerveien 4<br />4000 Stavanger</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:51xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    51 XX XX XX
-                  </a>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:stavanger@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    stavanger@atventilasjon.no
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Kristiansand */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Kristiansand</h3>
-              <div className="space-y-2 text-[#475569]">
-                <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Sørlandsveien 5<br />4600 Kristiansand</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:38xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    38 XX XX XX
-                  </a>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:kristiansand@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    kristiansand@atventilasjon.no
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Tromsø */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-4">Tromsø</h3>
-              <div className="space-y-2 text-[#475569]">
-                <p className="flex items-start">
-                  <span className="mr-2">📍</span>
-                  <span>Nordlysveien 6<br />9000 Tromsø</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">📞</span>
-                  <a href="tel:77xxxxxx" className="hover:text-[#0891B2] transition-colors">
-                    77 XX XX XX
-                  </a>
-                </p>
-                <p className="flex items-start">
-                  <span className="mr-2">✉️</span>
-                  <a href="mailto:tromso@atventilasjon.no" className="hover:text-[#0891B2] transition-colors">
-                    tromso@atventilasjon.no
-                  </a>
+              <div className="mt-6 pt-6 border-t border-gray-300">
+                <p className="text-sm text-[#64748b]">
+                  Vi betjener kunder i hele Norge med profesjonell ventilasjonsrens og varmepumpeservice.
                 </p>
               </div>
             </div>
@@ -239,7 +129,7 @@ export default function Kontakt() {
             Vi er her for å hjelpe deg! Ta kontakt i dag for uforpliktende råd og pristilbud.
           </p>
           <p className="text-[#64748b]">
-            Ring oss på 22 XX XX XX eller send e-post til post@atventilasjon.no
+            Ta kontakt via e-post til post@atventilasjon.no
           </p>
         </div>
       </section>

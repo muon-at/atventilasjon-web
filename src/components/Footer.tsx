@@ -12,7 +12,10 @@ export default function Footer() {
               Profesjonell ventilasjonsrens og varmepumpeservice i hele Norge.
             </p>
             <p className="text-gray-500 text-sm">
-              Org.nr: XXX XXX XXX
+              Org.nr: 935 684 862
+            </p>
+            <p className="text-gray-500 text-sm mt-2">
+              Rugdeveien 1, 4956 Risør
             </p>
           </div>
 
@@ -52,10 +55,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kontakt oss</h3>
             <ul className="space-y-2.5 text-gray-400 text-sm">
-              <li>
-                <a href="tel:22xxxxxx" className="hover:text-[#06B6D4] transition-colors">
-                  Telefon: 22 XX XX XX
-                </a>
+              <li className="hover:text-[#06B6D4] transition-colors">
+                Ring oss: kontakt for nummer
               </li>
               <li>
                 <a href="mailto:post@atventilasjon.no" className="hover:text-[#06B6D4] transition-colors">

@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 
 export const metadata = {
   title: 'Om oss - AT Ventilasjon',
-  description: 'AT Ventilasjon AS er din profesjonelle partner for ventilasjonsrens og varmepumpeservice i hele Norge. Over 10 års erfaring.',
+  description: 'AT Ventilasjon AS er din profesjonelle partner for ventilasjonsrens og varmepumpeservice i hele Norge. VVS-spesialister fra Risør.',
 };
 
 export default function OmOss() {
@@ -10,7 +10,7 @@ export default function OmOss() {
     <>
       <Hero
         title="Om AT Ventilasjon"
-        subtitle="Din profesjonelle partner for inneklima siden 2010"
+        subtitle="Din profesjonelle partner for inneklima siden 2025"
         ctaText=""
         ctaLink=""
       />
@@ -21,17 +21,17 @@ export default function OmOss() {
           <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Vår historie</h2>
           <div className="prose prose-lg max-w-none text-[#475569] leading-relaxed space-y-4">
             <p>
-              AT Ventilasjon AS ble grunnlagt i 2010 med en klar visjon: å gjøre profesjonell ventilasjonsrens 
-              og varmepumpeservice tilgjengelig for alle i Norge. Det startet som et lite selskap i Oslo, men 
-              har gjennom årene vokst til å bli en av landets ledende aktører innen inneklima og energieffektivisering.
+              AT Ventilasjon AS ble stiftet i 2025 med et klart mål: å tilby profesjonell VVS-service 
+              med fokus på ventilasjonsrens og varmepumpeservice til kunder i hele Norge. Basert i Risør 
+              på Sørlandet, kombinerer vi lokal forankring med landsdekkende tjenester.
             </p>
             <p>
-              I dag har vi kontorer i Oslo, Bergen, Trondheim, Stavanger, Kristiansand og Tromsø, og betjener 
-              kunder i hele Norge. Vi er stolte av å ha hjulpet tusenvis av huseiere og bedrifter med bedre 
-              inneklima og lavere energikostnader.
+              Som et MVA-registrert VVS-selskap (NACE 43.220) leverer vi alt fra ventilasjonsrens og 
+              varmepumpeservice til filterabonnement. Vårt team består av 13 dedikerte medarbeidere 
+              som jobber hver dag for å gi kundene våre bedre inneklima og lavere energikostnader.
             </p>
             <p>
-              Vår suksess bygger på tre søyler: kompetente medarbeidere, profesjonelt utstyr, og et genuint 
+              Vår suksess bygger på kompetente medarbeidere, profesjonelt utstyr, og et genuint 
               ønske om å levere beste kvalitet til våre kunder. Vi investerer kontinuerlig i opplæring og 
               sertifisering, slik at våre teknikere alltid er oppdatert på nyeste teknologi og metoder.
             </p>
@@ -80,20 +80,20 @@ export default function OmOss() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[#0F172A] mb-6 text-center">Vårt team</h2>
           <p className="text-xl text-[#475569] text-center mb-12 max-w-3xl mx-auto">
-            Vi er et team på over 50 dedikerte medarbeidere fordelt på våre kontorer rundt i Norge. 
-            Alle våre teknikere er fagutdannede, F-gass sertifiserte, og har lang erfaring i bransjen.
+            Vi er et team på 13 dedikerte medarbeidere basert i Risør. 
+            Alle våre teknikere er fagutdannede, F-gass sertifiserte, og har lang erfaring i VVS-bransjen.
           </p>
 
           <div className="bg-gradient-to-br from-[#F0F9FF] to-white rounded-2xl p-8 border border-[#06B6D4]">
             <h3 className="text-2xl font-bold text-[#0F172A] mb-8 text-center">Kompetanse du kan stole på</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
-                <p className="text-4xl font-bold mb-2 text-[#0891B2]">50+</p>
+                <p className="text-4xl font-bold mb-2 text-[#0891B2]">13</p>
                 <p className="text-[#64748b]">Ansatte</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-bold mb-2 text-[#0891B2]">10+</p>
-                <p className="text-[#64748b]">År med erfaring</p>
+                <p className="text-4xl font-bold mb-2 text-[#0891B2]">VVS</p>
+                <p className="text-[#64748b]">Spesialisert arbeid</p>
               </div>
               <div className="text-center">
                 <p className="text-4xl font-bold mb-2 text-[#0891B2]">100%</p>
@@ -109,67 +109,43 @@ export default function OmOss() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Dekningsområder</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">🏢</span>
-                Oslo
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all mb-8">
+              <h3 className="text-2xl font-bold text-[#0F172A] mb-4 flex items-center">
+                <span className="text-3xl mr-3">🏢</span>
+                Risør (Hovedkontor)
               </h3>
-              <p className="text-[#64748b]">
-                Hovedkontor med full service for Oslo og Akershus. Rask respons og 
-                omfattende erfaring i hovedstadsområdet.
+              <p className="text-[#64748b] mb-4">
+                Vårt hovedkontor ligger på Rugdeveien 1 i Risør. Her finner du vårt dedikerte team 
+                på 13 medarbeidere som betjener kunder i hele Norge med profesjonell ventilasjonsrens 
+                og varmepumpeservice.
+              </p>
+              <p className="text-[#475569] font-medium">
+                Org.nr: 935 684 862 | MVA-registrert | VVS-arbeid (NACE 43.220)
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">🌊</span>
-                Bergen
+            <div className="bg-gradient-to-br from-[#F0F9FF] to-white p-8 rounded-2xl border border-[#06B6D4]">
+              <h3 className="text-2xl font-bold text-[#0F172A] mb-4 text-center flex items-center justify-center">
+                <span className="text-3xl mr-3">🇳🇴</span>
+                Landsdekkende tjenester
               </h3>
-              <p className="text-[#64748b]">
-                Regionkontor som betjener Bergen og Hordaland. Spesialisert på 
-                vestlandets fuktige klima.
+              <p className="text-[#64748b] text-center mb-6">
+                Vi betjener kunder i hele Norge med våre tjenester innen ventilasjonsrens, 
+                varmepumpeservice og filterabonnement. Uansett hvor du befinner deg i landet, 
+                kan vi hjelpe deg med bedre inneklima og lavere energikostnader.
               </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">⛰️</span>
-                Trondheim
-              </h3>
-              <p className="text-[#64748b]">
-                Regionkontor for Trøndelag med erfarne teknikere og lokal kjennskap.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">⚓</span>
-                Stavanger
-              </h3>
-              <p className="text-[#64748b]">
-                Regionkontor som dekker Rogaland og nærliggende områder på Sør-Vestlandet.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">☀️</span>
-                Kristiansand
-              </h3>
-              <p className="text-[#64748b]">
-                Regionkontor for Sørlandet med god dekning i Agder-fylkene.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <h3 className="text-xl font-bold text-[#0F172A] mb-3 flex items-center">
-                <span className="text-2xl mr-3">❄️</span>
-                Tromsø
-              </h3>
-              <p className="text-[#64748b]">
-                Regionkontor som betjener Nord-Norge. Spesialkompetanse på nordnorske forhold.
-              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-center text-sm text-[#64748b]">
+                <div>Oslo & Akershus</div>
+                <div>Østfold</div>
+                <div>Vestfold</div>
+                <div>Telemark</div>
+                <div>Agder</div>
+                <div>Rogaland</div>
+                <div>Vestland</div>
+                <div>Trøndelag</div>
+                <div>Nordland</div>
+              </div>
             </div>
           </div>
 

@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AT Ventilasjon - Profesjonell ventilasjonsrens og varmepumpeservice",
-  description: "AT Ventilasjon tilbyr profesjonell ventilasjonsrens, varmepumpeservice og filterabonnement i hele Norge. Bestill befaring i dag!",
+  title: "AT Ventilasjon AS - Profesjonell ventilasjonsrens og varmepumpeservice",
+  description: "AT Ventilasjon AS (Org.nr 935 684 862) tilbyr profesjonell ventilasjonsrens, varmepumpeservice og filterabonnement i hele Norge. VVS-spesialister fra Risør. Bestill befaring i dag!",
 };
 
 export default function RootLayout({
