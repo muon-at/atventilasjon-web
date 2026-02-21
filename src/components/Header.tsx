@@ -16,12 +16,12 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white/95 backdrop-blur-xl text-[#212121] sticky top-0 z-50 border-b border-gray-200 shadow-sm">
+    <header className="bg-white/95 backdrop-blur-xl text-[#0F172A] sticky top-0 z-50 border-b border-gray-200 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold hover:opacity-80 transition-opacity">
-            AT <span className="text-[#1A9BA3]">Ventilasjon</span>
+            AT <span className="text-[#0891B2]">Ventilasjon</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -30,14 +30,14 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-[#424242] hover:text-[#1A9BA3] transition-colors font-medium text-[15px]"
+                className="text-[#475569] hover:text-[#0891B2] transition-colors font-medium text-[15px]"
               >
                 {item.name}
               </Link>
             ))}
             <Link
               href="/kontakt"
-              className="bg-[#1A9BA3] hover:bg-[#148088] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors shadow-sm"
+              className="bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-semibold px-6 py-2.5 rounded-lg transition-all shadow-sm"
             >
               Kontakt oss
             </Link>
@@ -45,7 +45,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2 rounded-md hover:bg-[#E0F7FA] transition-colors"
+            className="lg:hidden p-2 rounded-md hover:bg-[#ECFEFF] transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -74,7 +74,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block py-2.5 text-[#424242] hover:text-[#1A9BA3] transition-colors font-medium"
+                className="block py-2.5 text-[#475569] hover:text-[#0891B2] transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
@@ -82,7 +82,7 @@ export default function Header() {
             ))}
             <Link
               href="/kontakt"
-              className="block mt-4 text-center bg-[#1A9BA3] hover:bg-[#148088] text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              className="block mt-4 text-center bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-semibold px-6 py-3 rounded-lg transition-all"
               onClick={() => setMobileMenuOpen(false)}
             >
               Kontakt oss

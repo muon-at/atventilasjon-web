@@ -80,19 +80,19 @@ export default function Blogg() {
 
           {/* Pagination placeholder */}
           <div className="mt-16 text-center">
-            <p className="text-[#757575]">Viser 6 av 6 artikler</p>
+            <p className="text-[#64748b]">Viser 6 av 6 artikler</p>
           </div>
         </div>
       </section>
 
       {/* Newsletter CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#E0F7FA] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#F0F9FF] to-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-[#212121]">Hold deg oppdatert</h2>
-          <p className="text-xl mb-8 text-[#424242]">
+          <h2 className="text-3xl font-bold mb-4 text-[#0F172A]">Hold deg oppdatert</h2>
+          <p className="text-xl mb-8 text-[#475569]">
             Følg bloggen vår for de nyeste tipsene om inneklima og energisparing
           </p>
-          <p className="text-[#757575]">
+          <p className="text-[#64748b]">
             Nye artikler publiseres jevnlig - kom tilbake snart!
           </p>
         </div>

@@ -35,7 +35,7 @@ export default function ContactForm() {
       <div className="space-y-6">
         {/* Name */}
         <div>
-          <label htmlFor="name" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="name" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Navn *
           </label>
           <input
@@ -45,14 +45,14 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all"
             placeholder="Ola Nordmann"
           />
         </div>
 
         {/* Phone */}
         <div>
-          <label htmlFor="phone" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="phone" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Telefon *
           </label>
           <input
@@ -62,14 +62,14 @@ export default function ContactForm() {
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all"
             placeholder="12 34 56 78"
           />
         </div>
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="email" className="block text-sm font-semibold text-[#0F172A] mb-2">
             E-post *
           </label>
           <input
@@ -79,14 +79,14 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all"
             placeholder="ola@example.com"
           />
         </div>
 
         {/* Address */}
         <div>
-          <label htmlFor="address" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="address" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Adresse
           </label>
           <input
@@ -95,14 +95,14 @@ export default function ContactForm() {
             name="address"
             value={formData.address}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all"
             placeholder="Gate 1, 0100 Oslo"
           />
         </div>
 
         {/* Service */}
         <div>
-          <label htmlFor="service" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="service" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Tjeneste *
           </label>
           <select
@@ -111,7 +111,7 @@ export default function ContactForm() {
             required
             value={formData.service}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all bg-white"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all bg-white"
           >
             <option value="">Velg tjeneste</option>
             <option value="ventilasjonsrens">Komplett ventilasjonsrens</option>
@@ -126,7 +126,7 @@ export default function ContactForm() {
 
         {/* Date */}
         <div>
-          <label htmlFor="date" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="date" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Ønsket dato
           </label>
           <input
@@ -135,13 +135,13 @@ export default function ContactForm() {
             name="date"
             value={formData.date}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all"
           />
         </div>
 
         {/* Message */}
         <div>
-          <label htmlFor="message" className="block text-sm font-semibold text-[#212121] mb-2">
+          <label htmlFor="message" className="block text-sm font-semibold text-[#0F172A] mb-2">
             Melding *
           </label>
           <textarea
@@ -151,7 +151,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={5}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#06B6D4] focus:border-transparent transition-all resize-none"
             placeholder="Beskriv ditt behov..."
           />
         </div>
@@ -159,14 +159,14 @@ export default function ContactForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="w-full bg-[#1A9BA3] hover:bg-[#148088] text-white font-bold py-4 px-6 rounded-lg transition-all shadow-md hover:shadow-lg"
+          className="w-full bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-bold py-4 px-6 rounded-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
         >
           Send forespørsel
         </button>
 
         {/* Success Message */}
         {submitted && (
-          <div className="bg-[#E0F7FA] border border-[#1A9BA3] text-[#148088] px-4 py-3 rounded-lg">
+          <div className="bg-[#ECFEFF] border border-[#0891B2] text-[#0E7490] px-4 py-3 rounded-lg">
             ✓ Takk! Vi har mottatt din henvendelse og kommer tilbake til deg så snart som mulig.
           </div>
         )}

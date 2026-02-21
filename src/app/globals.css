@@ -2,20 +2,38 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #212121;
-  --teal: #1A9BA3;
-  --teal-light: #2AABB3;
-  --teal-dark: #148088;
-  --teal-bg: #E0F7FA;
+  --foreground: #1e293b;
+  
+  /* Primary - Fresh Cyan */
+  --primary: #06B6D4;
+  --primary-hover: #0891B2;
+  --primary-light: #22D3EE;
+  
+  /* Accent - Warm Orange for CTAs */
+  --accent: #F97316;
+  --accent-hover: #EA580C;
+  
+  /* Backgrounds */
+  --bg-light: #F0F9FF;
+  --bg-cyan: #ECFEFF;
+  
+  /* Dark slate for footer */
+  --dark: #0F172A;
+  --dark-light: #1e293b;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-teal: var(--teal);
-  --color-teal-light: var(--teal-light);
-  --color-teal-dark: var(--teal-dark);
-  --color-teal-bg: var(--teal-bg);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-bg-light: var(--bg-light);
+  --color-bg-cyan: var(--bg-cyan);
+  --color-dark: var(--dark);
+  --color-dark-light: var(--dark-light);
 }
 
 * {

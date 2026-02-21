@@ -10,10 +10,10 @@ interface BlogCardProps {
 
 export default function BlogCard({ title, excerpt, slug, date, readTime }: BlogCardProps) {
   return (
-    <article className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-200 hover:border-[#1A9BA3] hover:shadow-xl hover:-translate-y-1 transition-all">
-      <div className="h-48 bg-gradient-to-br from-[#E0F7FA] to-[#1A9BA3]" />
+    <article className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-200 hover:border-[#06B6D4] hover:shadow-xl hover:-translate-y-1 transition-all">
+      <div className="h-48 bg-gradient-to-br from-[#F0F9FF] to-[#06B6D4]" />
       <div className="p-6">
-        <div className="flex items-center text-sm text-[#757575] mb-3">
+        <div className="flex items-center text-sm text-[#64748b] mb-3">
           <time>{date}</time>
           {readTime && (
             <>
@@ -22,15 +22,15 @@ export default function BlogCard({ title, excerpt, slug, date, readTime }: BlogC
             </>
           )}
         </div>
-        <h3 className="text-2xl font-bold text-[#212121] mb-3 hover:text-[#1A9BA3] transition-colors">
+        <h3 className="text-2xl font-bold text-[#0F172A] mb-3 hover:text-[#06B6D4] transition-colors">
           <Link href={`/blogg/${slug}`}>
             {title}
           </Link>
         </h3>
-        <p className="text-[#424242] mb-4 leading-relaxed">{excerpt}</p>
+        <p className="text-[#475569] mb-4 leading-relaxed">{excerpt}</p>
         <Link
           href={`/blogg/${slug}`}
-          className="inline-flex items-center text-[#1A9BA3] font-semibold hover:text-[#2AABB3] transition-colors"
+          className="inline-flex items-center text-[#06B6D4] font-semibold hover:text-[#22D3EE] transition-colors"
         >
           Les mer
           <svg

@@ -30,20 +30,20 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-[#1A9BA3] mb-1">10+</div>
-              <p className="text-sm text-[#757575]">års erfaring</p>
+              <div className="text-3xl font-bold text-[#06B6D4] mb-1">10+</div>
+              <p className="text-sm text-[#64748b]">års erfaring</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#1A9BA3] mb-1">1000+</div>
-              <p className="text-sm text-[#757575]">fornøyde kunder</p>
+              <div className="text-3xl font-bold text-[#06B6D4] mb-1">1000+</div>
+              <p className="text-sm text-[#64748b]">fornøyde kunder</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#1A9BA3] mb-1">24/7</div>
-              <p className="text-sm text-[#757575]">kundeservice</p>
+              <div className="text-3xl font-bold text-[#06B6D4] mb-1">24/7</div>
+              <p className="text-sm text-[#64748b]">kundeservice</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#1A9BA3] mb-1">100%</div>
-              <p className="text-sm text-[#757575]">garantert kvalitet</p>
+              <div className="text-3xl font-bold text-[#06B6D4] mb-1">100%</div>
+              <p className="text-sm text-[#64748b]">garantert kvalitet</p>
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@ export default function Home() {
       <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#212121] mb-4">Våre tjenester</h2>
-            <p className="text-xl text-[#757575] max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Våre tjenester</h2>
+            <p className="text-xl text-[#64748b] max-w-3xl mx-auto">
               Helhetlige løsninger for ventilasjon, varmepumper og luftfiltre
             </p>
           </div>
@@ -108,65 +108,65 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#212121] mb-4">Hvorfor ren ventilasjon?</h2>
-            <p className="text-xl text-[#757575] max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Hvorfor ren ventilasjon?</h2>
+            <p className="text-xl text-[#64748b] max-w-3xl mx-auto">
               Rene ventilasjonsanlegg gir bedre helse, lavere energikostnader og lengre levetid
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Bedre luftkvalitet</h3>
-                <p className="text-[#757575]">Fjerner støv, bakterier og allergener for et sunnere inneklima</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Bedre luftkvalitet</h3>
+                <p className="text-[#64748b]">Fjerner støv, bakterier og allergener for et sunnere inneklima</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Lavere strømforbruk</h3>
-                <p className="text-[#757575]">Rene anlegg bruker opptil 30% mindre energi</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Lavere strømforbruk</h3>
+                <p className="text-[#64748b]">Rene anlegg bruker opptil 30% mindre energi</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Lengre levetid</h3>
-                <p className="text-[#757575]">Regelmessig vedlikehold forlenger anleggets levetid betydelig</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Lengre levetid</h3>
+                <p className="text-[#64748b]">Regelmessig vedlikehold forlenger anleggets levetid betydelig</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Redusert støy</h3>
-                <p className="text-[#757575]">Rene vifter og kanaler gir merkbart mindre støy</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Redusert støy</h3>
+                <p className="text-[#64748b]">Rene vifter og kanaler gir merkbart mindre støy</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Brannsikkerhet</h3>
-                <p className="text-[#757575]">Rengjøring reduserer brannfaren i ventilasjonskanaler</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Brannsikkerhet</h3>
+                <p className="text-[#64748b]">Rengjøring reduserer brannfaren i ventilasjonskanaler</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E0F7FA] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#212121] mb-2">Dokumentasjon</h3>
-                <p className="text-[#757575]">Fullstendig rapport etter hvert serviceoppdrag</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Dokumentasjon</h3>
+                <p className="text-[#64748b]">Fullstendig rapport etter hvert serviceoppdrag</p>
               </div>
             </div>
           </div>
@@ -177,8 +177,8 @@ export default function Home() {
       <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#212121] mb-4">Dekningsområder</h2>
-            <p className="text-xl text-[#757575]">
+            <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Dekningsområder</h2>
+            <p className="text-xl text-[#64748b]">
               Vi betjener hele Østlandet og Sørlandet
             </p>
           </div>
@@ -186,7 +186,7 @@ export default function Home() {
             {areas.map((area) => (
               <span
                 key={area}
-                className="inline-block bg-white border border-gray-200 px-5 py-2.5 rounded-full text-sm font-medium text-[#424242] hover:border-[#1A9BA3] hover:text-[#1A9BA3] transition-colors"
+                className="inline-block bg-white border border-gray-200 px-5 py-2.5 rounded-full text-sm font-medium text-[#475569] hover:border-[#06B6D4] hover:text-[#06B6D4] transition-colors"
               >
                 {area}
               </span>
@@ -199,8 +199,8 @@ export default function Home() {
       <section id="kontakt" className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#212121] mb-4">Bestill befaring</h2>
-            <p className="text-xl text-[#757575]">
+            <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Bestill befaring</h2>
+            <p className="text-xl text-[#64748b]">
               Fyll ut skjemaet så tar vi kontakt for en uforpliktende befaring og pristilbud
             </p>
           </div>

@@ -18,8 +18,8 @@ export default function Filterabonnement() {
       {/* Introduction */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#212121] mb-6">Hvorfor bytte filter regelmessig?</h2>
-          <div className="prose prose-lg max-w-none text-[#424242] leading-relaxed space-y-4">
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Hvorfor bytte filter regelmessig?</h2>
+          <div className="prose prose-lg max-w-none text-[#475569] leading-relaxed space-y-4">
             <p>
               Filteret i ventilasjonsanlegget er første forsvarslinje mot støv, pollen, bakterier og andre 
               partikler. Når filteret blir tilstoppet, reduseres luftkvaliteten og energiforbruket øker.
@@ -39,37 +39,37 @@ export default function Filterabonnement() {
       {/* Benefits */}
       <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Fordeler med filterabonnement</h2>
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Fordeler med filterabonnement</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🔔</div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Slipper å huske</h3>
-              <p className="text-[#757575]">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🔔</div>
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Slipper å huske</h3>
+              <p className="text-[#64748b]">
                 Vi sender nye filtre automatisk når det er på tide å bytte
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💨</div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Bedre inneklima</h3>
-              <p className="text-[#757575]">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💨</div>
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Bedre inneklima</h3>
+              <p className="text-[#64748b]">
                 Frisk filtre sikrer optimal luftkvalitet hele året
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💡</div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Lavere strømregning</h3>
-              <p className="text-[#757575]">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💡</div>
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Lavere strømregning</h3>
+              <p className="text-[#64748b]">
                 Rene filtre reduserer energiforbruket med opptil 15%
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">📦</div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Hjemlevering</h3>
-              <p className="text-[#757575]">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">📦</div>
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Hjemlevering</h3>
+              <p className="text-[#64748b]">
                 Filtrene leveres rett i postkassen - enkelt og praktisk
               </p>
             </div>
@@ -80,35 +80,35 @@ export default function Filterabonnement() {
       {/* How It Works */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Slik fungerer det</h2>
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Slik fungerer det</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-[#1A9BA3] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#06B6D4] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Velg abonnement</h3>
-              <p className="text-[#757575]">
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Velg abonnement</h3>
+              <p className="text-[#64748b]">
                 Oppgi filtertype og velg hvor ofte du vil ha nye filtre (halvårlig eller årlig)
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-[#1A9BA3] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#06B6D4] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Motta filtre</h3>
-              <p className="text-[#757575]">
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Motta filtre</h3>
+              <p className="text-[#64748b]">
                 Vi sender filtre automatisk til avtalt tid - du trenger ikke gjøre noe
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-[#1A9BA3] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#06B6D4] text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3">Bytt filter</h3>
-              <p className="text-[#757575]">
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">Bytt filter</h3>
+              <p className="text-[#64748b]">
                 Følg enkel instruksjon og bytt filter på 5 minutter - ferdig!
               </p>
             </div>
@@ -119,36 +119,36 @@ export default function Filterabonnement() {
       {/* Pricing */}
       <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Priser</h2>
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-8 text-center">Priser</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#1A9BA3]">
+            <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#06B6D4]">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-[#212121] mb-2">Halvårlig</h3>
-                <p className="text-[#757575] mb-4">2 filtre per år</p>
-                <p className="text-5xl font-bold text-[#1A9BA3] mb-2">299 kr</p>
-                <p className="text-[#757575] mb-6">per halvår</p>
-                <ul className="text-left space-y-2 text-[#424242] mb-6">
+                <h3 className="text-2xl font-bold text-[#0F172A] mb-2">Halvårlig</h3>
+                <p className="text-[#64748b] mb-4">2 filtre per år</p>
+                <p className="text-5xl font-bold text-[#06B6D4] mb-2">299 kr</p>
+                <p className="text-[#64748b] mb-6">per halvår</p>
+                <ul className="text-left space-y-2 text-[#475569] mb-6">
                   <li className="flex items-start">
-                    <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
+                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
                     <span>Filter levert hver 6. måned</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
+                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
                     <span>Gratis frakt</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
+                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
                     <span>Enkelt å si opp</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
+                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
                     <span>Veiledning inkludert</span>
                   </li>
                 </ul>
                 <Link
                   href="/kontakt"
-                  className="block bg-[#1A9BA3] hover:bg-[#2AABB3] text-white font-bold py-3 px-6 rounded-lg transition-colors"
+                  className="block bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-bold py-3 px-6 rounded-lg transition-colors"
                 >
                   Bestill nå
                 </Link>
@@ -157,25 +157,25 @@ export default function Filterabonnement() {
 
             <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-gray-200">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-[#212121] mb-2">Årlig</h3>
-                <p className="text-[#757575] mb-4">1 filter per år</p>
-                <p className="text-5xl font-bold text-[#212121] mb-2">249 kr</p>
-                <p className="text-[#757575] mb-6">per år</p>
-                <ul className="text-left space-y-2 text-[#424242] mb-6">
+                <h3 className="text-2xl font-bold text-[#0F172A] mb-2">Årlig</h3>
+                <p className="text-[#64748b] mb-4">1 filter per år</p>
+                <p className="text-5xl font-bold text-[#0F172A] mb-2">249 kr</p>
+                <p className="text-[#64748b] mb-6">per år</p>
+                <ul className="text-left space-y-2 text-[#475569] mb-6">
                   <li className="flex items-start">
-                    <span className="text-[#212121] mr-2 font-bold">✓</span>
+                    <span className="text-[#0F172A] mr-2 font-bold">✓</span>
                     <span>Filter levert årlig</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#212121] mr-2 font-bold">✓</span>
+                    <span className="text-[#0F172A] mr-2 font-bold">✓</span>
                     <span>Gratis frakt</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#212121] mr-2 font-bold">✓</span>
+                    <span className="text-[#0F172A] mr-2 font-bold">✓</span>
                     <span>Enkelt å si opp</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#212121] mr-2 font-bold">✓</span>
+                    <span className="text-[#0F172A] mr-2 font-bold">✓</span>
                     <span>Veiledning inkludert</span>
                   </li>
                 </ul>
@@ -190,10 +190,10 @@ export default function Filterabonnement() {
           </div>
 
           <div className="text-center">
-            <p className="text-[#424242] mb-4">
+            <p className="text-[#475569] mb-4">
               Usikker på hvilken filtertype du trenger? Kontakt oss, så hjelper vi deg!
             </p>
-            <p className="text-[#757575] text-sm">
+            <p className="text-[#64748b] text-sm">
               Alle priser er inkludert mva og frakt. Ingen bindingstid - kan sies opp når som helst.
             </p>
           </div>
@@ -203,8 +203,8 @@ export default function Filterabonnement() {
       {/* Huskfilter.no Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-[#212121] mb-6">Kjøp enkeltfiltre på huskfilter.no</h2>
-          <p className="text-xl text-[#424242] mb-8">
+          <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Kjøp enkeltfiltre på huskfilter.no</h2>
+          <p className="text-xl text-[#475569] mb-8">
             Trenger du bare et nytt filter uten abonnement? Besøk vår nettbutikk huskfilter.no 
             for enkle engangskjøp av alle typer ventilasjonsfiltre.
           </p>
@@ -212,7 +212,7 @@ export default function Filterabonnement() {
             href="https://huskfilter.no"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#1A9BA3] hover:bg-[#2AABB3] text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="inline-block bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Besøk huskfilter.no →
           </a>
@@ -220,15 +220,15 @@ export default function Filterabonnement() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#E0F7FA] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#F0F9FF] to-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6 text-[#212121]">Klar for bedre inneklima?</h2>
-          <p className="text-xl mb-8 text-[#424242]">
+          <h2 className="text-4xl font-bold mb-6 text-[#0F172A]">Klar for bedre inneklima?</h2>
+          <p className="text-xl mb-8 text-[#475569]">
             Tegn filterabonnement i dag og sørg for frisk luft hele året
           </p>
           <Link
             href="/kontakt"
-            className="inline-block bg-[#1A9BA3] hover:bg-[#2AABB3] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="inline-block bg-gradient-to-r from-[#F97316] to-[#EA580C] hover:from-[#EA580C] hover:to-[#C2410C] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Bestill abonnement
           </Link>
