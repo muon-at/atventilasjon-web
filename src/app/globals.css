@@ -5,16 +5,16 @@
   --foreground: #1e293b;
   
   /* Primary - Fresh Cyan */
-  --primary: #06B6D4;
-  --primary-hover: #0891B2;
-  --primary-light: #22D3EE;
+  --primary: #0891B2;
+  --primary-hover: #06B6D4;
+  --primary-light: #ECFEFF;
   
   /* Accent - Warm Orange for CTAs */
   --accent: #F97316;
-  --accent-hover: #EA580C;
+  --accent-hover: #FB923C;
   
   /* Backgrounds */
-  --bg-light: #F0F9FF;
+  --bg-light: #F8FAFC;
   --bg-cyan: #ECFEFF;
   
   /* Dark slate for footer */

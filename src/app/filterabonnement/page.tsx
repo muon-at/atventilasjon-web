@@ -42,32 +42,32 @@ export default function Filterabonnement() {
           <h2 className="text-3xl font-bold text-[#0F172A] mb-12 text-center">Fordeler med filterabonnement</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🔔</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#ECFEFF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🔔</div>
               <h3 className="text-xl font-bold text-[#0F172A] mb-3">Slipper å huske</h3>
               <p className="text-[#64748b]">
                 Vi sender nye filtre automatisk når det er på tide å bytte
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💨</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#ECFEFF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💨</div>
               <h3 className="text-xl font-bold text-[#0F172A] mb-3">Bedre inneklima</h3>
               <p className="text-[#64748b]">
                 Frisk filtre sikrer optimal luftkvalitet hele året
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💡</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#ECFEFF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">💡</div>
               <h3 className="text-xl font-bold text-[#0F172A] mb-3">Lavere strømregning</h3>
               <p className="text-[#64748b]">
                 Rene filtre reduserer energiforbruket med opptil 15%
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#06B6D4] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
-              <div className="w-16 h-16 bg-[#F0F9FF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">📦</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#0891B2] hover:-translate-y-1 hover:shadow-xl transition-all text-center">
+              <div className="w-16 h-16 bg-[#ECFEFF] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">📦</div>
               <h3 className="text-xl font-bold text-[#0F172A] mb-3">Hjemlevering</h3>
               <p className="text-[#64748b]">
                 Filtrene leveres rett i postkassen - enkelt og praktisk
@@ -126,23 +126,23 @@ export default function Filterabonnement() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-[#0F172A] mb-2">Halvårlig</h3>
                 <p className="text-[#64748b] mb-4">2 filtre per år</p>
-                <p className="text-5xl font-bold text-[#06B6D4] mb-2">299 kr</p>
+                <p className="text-5xl font-bold text-[#0891B2] mb-2">299 kr</p>
                 <p className="text-[#64748b] mb-6">per halvår</p>
                 <ul className="text-left space-y-2 text-[#475569] mb-6">
                   <li className="flex items-start">
-                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
+                    <span className="text-[#0891B2] mr-2 font-bold">✓</span>
                     <span>Filter levert hver 6. måned</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
+                    <span className="text-[#0891B2] mr-2 font-bold">✓</span>
                     <span>Gratis frakt</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
+                    <span className="text-[#0891B2] mr-2 font-bold">✓</span>
                     <span>Enkelt å si opp</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#06B6D4] mr-2 font-bold">✓</span>
+                    <span className="text-[#0891B2] mr-2 font-bold">✓</span>
                     <span>Veiledning inkludert</span>
                   </li>
                 </ul>

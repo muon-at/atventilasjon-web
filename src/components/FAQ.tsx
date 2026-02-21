@@ -24,11 +24,11 @@ export default function FAQ({ items }: FAQProps) {
         <div key={index} className="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm">
           <button
             onClick={() => toggleItem(index)}
-            className="w-full text-left px-6 py-4 hover:bg-[#F0F9FF] transition-colors flex justify-between items-center"
+            className="w-full text-left px-6 py-4 hover:bg-[#ECFEFF] transition-colors flex justify-between items-center"
           >
             <span className="font-semibold text-[#0F172A] text-lg pr-4">{item.question}</span>
             <svg
-              className={`w-5 h-5 text-[#06B6D4] transform transition-transform flex-shrink-0 ${
+              className={`w-5 h-5 text-[#0891B2] transform transition-transform flex-shrink-0 ${
                 openIndex === index ? 'rotate-180' : ''
               }`}
               fill="none"

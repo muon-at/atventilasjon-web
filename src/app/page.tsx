@@ -30,19 +30,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-[#06B6D4] mb-1">10+</div>
+              <div className="text-3xl font-bold text-[#0891B2] mb-1">10+</div>
               <p className="text-sm text-[#64748b]">års erfaring</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#06B6D4] mb-1">1000+</div>
+              <div className="text-3xl font-bold text-[#0891B2] mb-1">1000+</div>
               <p className="text-sm text-[#64748b]">fornøyde kunder</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#06B6D4] mb-1">24/7</div>
+              <div className="text-3xl font-bold text-[#0891B2] mb-1">24/7</div>
               <p className="text-sm text-[#64748b]">kundeservice</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-[#06B6D4] mb-1">100%</div>
+              <div className="text-3xl font-bold text-[#0891B2] mb-1">100%</div>
               <p className="text-sm text-[#64748b]">garantert kvalitet</p>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -134,7 +134,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -152,7 +152,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -161,7 +161,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#F0F9FF] rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#ECFEFF] rounded-full flex items-center justify-center">
                 <span className="text-2xl">✓</span>
               </div>
               <div>
@@ -186,7 +186,7 @@ export default function Home() {
             {areas.map((area) => (
               <span
                 key={area}
-                className="inline-block bg-white border border-gray-200 px-5 py-2.5 rounded-full text-sm font-medium text-[#475569] hover:border-[#06B6D4] hover:text-[#06B6D4] transition-colors"
+                className="inline-block bg-white border border-gray-200 px-5 py-2.5 rounded-full text-sm font-medium text-[#475569] hover:border-[#0891B2] hover:text-[#0891B2] transition-colors"
               >
                 {area}
               </span>
