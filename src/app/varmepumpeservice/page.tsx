@@ -3,8 +3,8 @@ import FAQ from '@/components/FAQ';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Varmepumpeservice - AT Ventilasjon',
-  description: 'Profesjonell service og vedlikehold av alle typer varmepumper. F-gass sertifiserte teknikere. Priser fra 2590 kr.',
+  title: 'Rens av varmepumpe - AT Ventilasjon',
+  description: 'Profesjonell rens og service av alle typer varmepumper. F-gass sertifiserte teknikere. Fra 2 190,- inkl. mva.',
 };
 
 export default function Varmepumpeservice() {
@@ -34,15 +34,16 @@ export default function Varmepumpeservice() {
   return (
     <>
       <Hero
-        title="Varmepumpeservice"
-        subtitle="Profesjonell service for optimal ytelse og lang levetid"
+        title="Rens av varmepumpe"
+        subtitle="Profesjonell rens og service for optimal ytelse og lang levetid"
+        badge="♨️ Fra 2 190,- inkl. mva"
       />
 
       {/* Introduction */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-6">Hvorfor er service viktig?</h2>
-          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+          <h2 className="text-3xl font-bold text-[#212121] mb-6">Hvorfor er service viktig?</h2>
+          <div className="prose prose-lg max-w-none text-[#424242] leading-relaxed space-y-4">
             <p>
               En varmepumpe er en stor investering som krever regelmessig vedlikehold for å fungere optimalt. 
               Uten service kan ytelsen reduseres med opptil 25%, og risikoen for kostbare reparasjoner øker betydelig.
@@ -60,33 +61,33 @@ export default function Varmepumpeservice() {
       </section>
 
       {/* Types of Heat Pumps */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-12 text-center">Varmepumper vi servicerer</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Varmepumper vi servicerer</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-5xl mb-4">❄️</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Luft-til-luft</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">❄️</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Luft-til-luft</h3>
+              <p className="text-[#757575]">
                 Den mest vanlige typen varmepumpe i Norge. Vi servicerer alle kjente merker som 
                 Mitsubishi, Daikin, Panasonic, LG og Fujitsu.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-5xl mb-4">💧</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Luft-til-vann</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">💧</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Luft-til-vann</h3>
+              <p className="text-[#757575]">
                 Varmepumpe som kobles til vannbårent varmesystem. Krever spesialkompetanse 
                 og F-gass sertifisering - som alle våre teknikere har.
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-5xl mb-4">🌍</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Væske-til-vann</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">🌍</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Væske-til-vann</h3>
+              <p className="text-[#757575]">
                 Bergvarme og jordvarme. Vi har erfaring med alle typer grunnvarmeinstallasjoner 
                 og tilbyr komplett service og vedlikehold.
               </p>
@@ -98,64 +99,64 @@ export default function Varmepumpeservice() {
       {/* Service Process */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-12 text-center">Hva service innebærer</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Hva service innebærer</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Standard service</h3>
-              <ul className="space-y-3 text-gray-700">
+            <div className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Standard service</h3>
+              <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Rengjøring av luftfiltre</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Rengjøring av varmeveksler</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Kontroll av kjølemedium (F-gass)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Test av alle funksjoner</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Kontroll av kondensvannslange</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Rapport med anbefalinger</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Utvidet service</h3>
-              <ul className="space-y-3 text-gray-700">
+            <div className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Utvidet service</h3>
+              <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Komplett rengjøring innvendig og utvendig</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Etterfylling av kjølemedium ved behov</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Lekkasjesøk og tetting</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Kontroll av elektrisk anlegg</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Ytelsesmåling og optimalisering</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2 font-bold">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Detaljert servicerapport</span>
                 </li>
               </ul>
@@ -165,18 +166,19 @@ export default function Varmepumpeservice() {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">Priser</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Priser</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-white rounded-lg p-8 shadow-lg border-2 border-gray-200">
-              <h3 className="text-2xl font-bold text-[#1a365d] mb-4">Standard service</h3>
-              <p className="text-5xl font-bold text-orange-600 mb-4">2 590 kr</p>
-              <p className="text-gray-700 mb-4">
-                Anbefalt årlig service for luft-til-luft varmepumper
+            <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#2E7D32]">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Rens av varmepumpe</h3>
+              <p className="text-5xl font-bold text-[#2E7D32] mb-2">2 190,-</p>
+              <p className="text-sm text-[#757575] mb-4">inkl. mva</p>
+              <p className="text-[#424242] mb-4">
+                Anbefalt årlig rens for luft-til-luft varmepumper
               </p>
-              <ul className="space-y-2 text-gray-600 text-sm">
+              <ul className="space-y-2 text-[#424242] text-sm">
                 <li>✓ Rengjøring og kontroll</li>
                 <li>✓ F-gass kontroll</li>
                 <li>✓ Funksjonstest</li>
@@ -184,13 +186,14 @@ export default function Varmepumpeservice() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-[#1a365d] to-[#2d4a7c] rounded-lg p-8 shadow-lg text-white">
-              <h3 className="text-2xl font-bold mb-4">Utvidet service</h3>
-              <p className="text-5xl font-bold mb-4">Fra 2 490 kr</p>
-              <p className="mb-4">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-white rounded-2xl p-8 shadow-md border border-[#2E7D32]">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Utvidet service</h3>
+              <p className="text-5xl font-bold text-[#2E7D32] mb-2">Fra 3 490,-</p>
+              <p className="text-sm text-[#757575] mb-4">inkl. mva</p>
+              <p className="text-[#424242] mb-4">
                 Komplett service for alle typer varmepumper
               </p>
-              <ul className="space-y-2 text-gray-200 text-sm">
+              <ul className="space-y-2 text-[#424242] text-sm">
                 <li>✓ Alt i standard service</li>
                 <li>✓ Grundig rengjøring</li>
                 <li>✓ Etterfylling kjølemedium</li>
@@ -199,7 +202,7 @@ export default function Varmepumpeservice() {
             </div>
           </div>
 
-          <p className="text-center text-gray-600">
+          <p className="text-center text-[#757575]">
             Prisene gjelder standard installasjoner. Vi gir alltid et bindende pristilbud før arbeidet starter.
           </p>
         </div>
@@ -208,21 +211,21 @@ export default function Varmepumpeservice() {
       {/* FAQ */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">Ofte stilte spørsmål</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Ofte stilte spørsmål</h2>
           <FAQ items={faqItems} />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Bestill varmepumpeservice i dag</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-4xl font-bold mb-6 text-[#212121]">Bestill varmepumpeservice i dag</h2>
+          <p className="text-xl mb-8 text-[#424242]">
             Sørg for optimal ytelse og lang levetid på din varmepumpe
           </p>
           <Link
             href="/kontakt"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
+            className="inline-block bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Bestill service
           </Link>

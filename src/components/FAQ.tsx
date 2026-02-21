@@ -21,14 +21,14 @@ export default function FAQ({ items }: FAQProps) {
   return (
     <div className="space-y-4">
       {items.map((item, index) => (
-        <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
+        <div key={index} className="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm">
           <button
             onClick={() => toggleItem(index)}
-            className="w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 transition-colors flex justify-between items-center"
+            className="w-full text-left px-6 py-4 hover:bg-[#E8F5E9] transition-colors flex justify-between items-center"
           >
-            <span className="font-semibold text-[#1a365d] text-lg">{item.question}</span>
+            <span className="font-semibold text-[#212121] text-lg pr-4">{item.question}</span>
             <svg
-              className={`w-5 h-5 text-[#1a365d] transform transition-transform ${
+              className={`w-5 h-5 text-[#2E7D32] transform transition-transform flex-shrink-0 ${
                 openIndex === index ? 'rotate-180' : ''
               }`}
               fill="none"
@@ -42,8 +42,8 @@ export default function FAQ({ items }: FAQProps) {
             </svg>
           </button>
           {openIndex === index && (
-            <div className="px-6 py-4 bg-white">
-              <p className="text-gray-700 leading-relaxed">{item.answer}</p>
+            <div className="px-6 py-4 bg-[#FAFAFA] border-t border-gray-200">
+              <p className="text-[#424242] leading-relaxed">{item.answer}</p>
             </div>
           )}
         </div>
