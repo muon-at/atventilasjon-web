@@ -63,8 +63,8 @@ export default function Blogg() {
       />
 
       {/* Blog Posts Grid */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-[#FAFAFA]">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
               <BlogCard
@@ -80,19 +80,19 @@ export default function Blogg() {
 
           {/* Pagination placeholder */}
           <div className="mt-16 text-center">
-            <p className="text-gray-600">Viser 6 av 6 artikler</p>
+            <p className="text-[#757575]">Viser 6 av 6 artikler</p>
           </div>
         </div>
       </section>
 
       {/* Newsletter CTA */}
-      <section className="py-20 bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Hold deg oppdatert</h2>
-          <p className="text-xl mb-8">
+      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-[#212121]">Hold deg oppdatert</h2>
+          <p className="text-xl mb-8 text-[#424242]">
             Følg bloggen vår for de nyeste tipsene om inneklima og energisparing
           </p>
-          <p className="text-gray-200">
+          <p className="text-[#757575]">
             Nye artikler publiseres jevnlig - kom tilbake snart!
           </p>
         </div>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Rens av varmepumpe - AT Ventilasjon',
-  description: 'Profesjonell rens og service av alle typer varmepumper. F-gass sertifiserte teknikere. Fra 2 190,- inkl. mva.',
+  description: 'Profesjonell rens og service av alle typer varmepumper. F-gass sertifiserte teknikere. Fra 2 590,- inkl. mva.',
 };
 
 export default function Varmepumpeservice() {
@@ -36,7 +36,7 @@ export default function Varmepumpeservice() {
       <Hero
         title="Rens av varmepumpe"
         subtitle="Profesjonell rens og service for optimal ytelse og lang levetid"
-        badge="♨️ Fra 2 190,- inkl. mva"
+        badge="♨️ Fra 2 590,- inkl. mva"
       />
 
       {/* Introduction */}
@@ -173,7 +173,7 @@ export default function Varmepumpeservice() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#2E7D32]">
               <h3 className="text-2xl font-bold text-[#212121] mb-4">Rens av varmepumpe</h3>
-              <p className="text-5xl font-bold text-[#2E7D32] mb-2">2 190,-</p>
+              <p className="text-5xl font-bold text-[#2E7D32] mb-2">2 590,-</p>
               <p className="text-sm text-[#757575] mb-4">inkl. mva</p>
               <p className="text-[#424242] mb-4">
                 Anbefalt årlig rens for luft-til-luft varmepumper

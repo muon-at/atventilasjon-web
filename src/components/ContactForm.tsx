@@ -7,7 +7,9 @@ export default function ContactForm() {
     name: '',
     phone: '',
     email: '',
+    address: '',
     service: '',
+    date: '',
     message: '',
   });
 
@@ -82,6 +84,22 @@ export default function ContactForm() {
           />
         </div>
 
+        {/* Address */}
+        <div>
+          <label htmlFor="address" className="block text-sm font-semibold text-[#212121] mb-2">
+            Adresse
+          </label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            value={formData.address}
+            onChange={handleChange}
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            placeholder="Gate 1, 0100 Oslo"
+          />
+        </div>
+
         {/* Service */}
         <div>
           <label htmlFor="service" className="block text-sm font-semibold text-[#212121] mb-2">
@@ -104,6 +122,21 @@ export default function ContactForm() {
             <option value="overflate">Skånsom overflaterens</option>
             <option value="annet">Annet</option>
           </select>
+        </div>
+
+        {/* Date */}
+        <div>
+          <label htmlFor="date" className="block text-sm font-semibold text-[#212121] mb-2">
+            Ønsket dato
+          </label>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            value={formData.date}
+            onChange={handleChange}
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+          />
         </div>
 
         {/* Message */}

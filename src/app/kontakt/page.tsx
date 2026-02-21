@@ -17,13 +17,13 @@ export default function Kontakt() {
       />
 
       {/* Contact Form and Info */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-[#FAFAFA]">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-[#1a365d] mb-6">Send oss en forespørsel</h2>
-              <p className="text-gray-700 mb-8">
+              <h2 className="text-3xl font-bold text-[#212121] mb-6">Send oss en forespørsel</h2>
+              <p className="text-[#424242] mb-8">
                 Fyll ut skjemaet under, så tar vi kontakt med deg så snart som mulig. 
                 Vi gir alltid uforpliktende pristilbud.
               </p>
@@ -32,48 +32,48 @@ export default function Kontakt() {
 
             {/* Contact Info */}
             <div>
-              <h2 className="text-3xl font-bold text-[#1a365d] mb-6">Kontaktinformasjon</h2>
+              <h2 className="text-3xl font-bold text-[#212121] mb-6">Kontaktinformasjon</h2>
               
               <div className="space-y-6">
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <h3 className="font-bold text-lg text-[#1a365d] mb-3 flex items-center">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                  <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">📞</span>
                     Telefon
                   </h3>
-                  <p className="text-gray-700 ml-11">
-                    <a href="tel:22xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <p className="text-[#424242] ml-11">
+                    <a href="tel:22xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                       22 XX XX XX
                     </a>
                   </p>
-                  <p className="text-gray-600 text-sm ml-11 mt-1">
+                  <p className="text-[#757575] text-sm ml-11 mt-1">
                     Mandag - Fredag: 08:00 - 16:00
                   </p>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <h3 className="font-bold text-lg text-[#1a365d] mb-3 flex items-center">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                  <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">✉️</span>
                     E-post
                   </h3>
-                  <p className="text-gray-700 ml-11">
-                    <a href="mailto:post@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <p className="text-[#424242] ml-11">
+                    <a href="mailto:post@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                       post@atventilasjon.no
                     </a>
                   </p>
-                  <p className="text-gray-600 text-sm ml-11 mt-1">
+                  <p className="text-[#757575] text-sm ml-11 mt-1">
                     Vi svarer normalt innen 24 timer
                   </p>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <h3 className="font-bold text-lg text-[#1a365d] mb-3 flex items-center">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                  <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">⏰</span>
                     Åpningstider
                   </h3>
-                  <div className="ml-11 space-y-1 text-gray-700">
+                  <div className="ml-11 space-y-1 text-[#424242]">
                     <p>Mandag - Fredag: 08:00 - 16:00</p>
                     <p>Lørdag - Søndag: Stengt</p>
-                    <p className="text-sm text-gray-600 mt-2">
+                    <p className="text-sm text-[#757575] mt-2">
                       Akutte henvendelser kan avtales utenom ordinær åpningstid
                     </p>
                   </div>
@@ -86,27 +86,27 @@ export default function Kontakt() {
 
       {/* Office Locations */}
       <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-12 text-center">Våre kontorer</h2>
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Våre kontorer</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Oslo */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Oslo (Hovedkontor)</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Oslo (Hovedkontor)</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Eksempelveien 1<br />0100 Oslo</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:22xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:22xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     22 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:oslo@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:oslo@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     oslo@atventilasjon.no
                   </a>
                 </p>
@@ -114,22 +114,22 @@ export default function Kontakt() {
             </div>
 
             {/* Bergen */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Bergen</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Bergen</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Bergensveien 2<br />5000 Bergen</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:55xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:55xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     55 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:bergen@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:bergen@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     bergen@atventilasjon.no
                   </a>
                 </p>
@@ -137,22 +137,22 @@ export default function Kontakt() {
             </div>
 
             {/* Trondheim */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Trondheim</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Trondheim</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Trondheimsgata 3<br />7000 Trondheim</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:73xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:73xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     73 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:trondheim@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:trondheim@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     trondheim@atventilasjon.no
                   </a>
                 </p>
@@ -160,22 +160,22 @@ export default function Kontakt() {
             </div>
 
             {/* Stavanger */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Stavanger</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Stavanger</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Stavangerveien 4<br />4000 Stavanger</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:51xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:51xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     51 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:stavanger@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:stavanger@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     stavanger@atventilasjon.no
                   </a>
                 </p>
@@ -183,22 +183,22 @@ export default function Kontakt() {
             </div>
 
             {/* Kristiansand */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Kristiansand</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Kristiansand</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Sørlandsveien 5<br />4600 Kristiansand</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:38xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:38xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     38 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:kristiansand@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:kristiansand@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     kristiansand@atventilasjon.no
                   </a>
                 </p>
@@ -206,22 +206,22 @@ export default function Kontakt() {
             </div>
 
             {/* Tromsø */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-[#1a365d] mb-4">Tromsø</h3>
-              <div className="space-y-2 text-gray-700">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <h3 className="text-xl font-bold text-[#212121] mb-4">Tromsø</h3>
+              <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
                   <span className="mr-2">📍</span>
                   <span>Nordlysveien 6<br />9000 Tromsø</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:77xxxxxx" className="hover:text-orange-600 transition-colors">
+                  <a href="tel:77xxxxxx" className="hover:text-[#2E7D32] transition-colors">
                     77 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:tromso@atventilasjon.no" className="hover:text-orange-600 transition-colors">
+                  <a href="mailto:tromso@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
                     tromso@atventilasjon.no
                   </a>
                 </p>
@@ -232,13 +232,13 @@ export default function Kontakt() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Har du spørsmål?</h2>
-          <p className="text-xl mb-4">
+      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-[#212121]">Har du spørsmål?</h2>
+          <p className="text-xl mb-4 text-[#424242]">
             Vi er her for å hjelpe deg! Ta kontakt i dag for uforpliktende råd og pristilbud.
           </p>
-          <p className="text-gray-200">
+          <p className="text-[#757575]">
             Ring oss på 22 XX XX XX eller send e-post til post@atventilasjon.no
           </p>
         </div>
