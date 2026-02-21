@@ -86,7 +86,7 @@ export default function Blogg() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#E0F7FA] to-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4 text-[#212121]">Hold deg oppdatert</h2>
           <p className="text-xl mb-8 text-[#424242]">

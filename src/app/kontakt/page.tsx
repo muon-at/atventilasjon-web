@@ -35,13 +35,13 @@ export default function Kontakt() {
               <h2 className="text-3xl font-bold text-[#212121] mb-6">Kontaktinformasjon</h2>
               
               <div className="space-y-6">
-                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] transition-all">
                   <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">📞</span>
                     Telefon
                   </h3>
                   <p className="text-[#424242] ml-11">
-                    <a href="tel:22xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                    <a href="tel:22xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                       22 XX XX XX
                     </a>
                   </p>
@@ -50,13 +50,13 @@ export default function Kontakt() {
                   </p>
                 </div>
 
-                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] transition-all">
                   <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">✉️</span>
                     E-post
                   </h3>
                   <p className="text-[#424242] ml-11">
-                    <a href="mailto:post@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                    <a href="mailto:post@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                       post@atventilasjon.no
                     </a>
                   </p>
@@ -65,7 +65,7 @@ export default function Kontakt() {
                   </p>
                 </div>
 
-                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] transition-all">
+                <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] transition-all">
                   <h3 className="font-bold text-lg text-[#212121] mb-3 flex items-center">
                     <span className="text-2xl mr-3">⏰</span>
                     Åpningstider
@@ -91,7 +91,7 @@ export default function Kontakt() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Oslo */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Oslo (Hovedkontor)</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -100,13 +100,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:22xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:22xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     22 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:oslo@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:oslo@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     oslo@atventilasjon.no
                   </a>
                 </p>
@@ -114,7 +114,7 @@ export default function Kontakt() {
             </div>
 
             {/* Bergen */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Bergen</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -123,13 +123,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:55xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:55xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     55 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:bergen@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:bergen@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     bergen@atventilasjon.no
                   </a>
                 </p>
@@ -137,7 +137,7 @@ export default function Kontakt() {
             </div>
 
             {/* Trondheim */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Trondheim</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -146,13 +146,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:73xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:73xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     73 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:trondheim@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:trondheim@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     trondheim@atventilasjon.no
                   </a>
                 </p>
@@ -160,7 +160,7 @@ export default function Kontakt() {
             </div>
 
             {/* Stavanger */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Stavanger</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -169,13 +169,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:51xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:51xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     51 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:stavanger@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:stavanger@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     stavanger@atventilasjon.no
                   </a>
                 </p>
@@ -183,7 +183,7 @@ export default function Kontakt() {
             </div>
 
             {/* Kristiansand */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Kristiansand</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -192,13 +192,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:38xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:38xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     38 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:kristiansand@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:kristiansand@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     kristiansand@atventilasjon.no
                   </a>
                 </p>
@@ -206,7 +206,7 @@ export default function Kontakt() {
             </div>
 
             {/* Tromsø */}
-            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-[#FAFAFA] p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-4">Tromsø</h3>
               <div className="space-y-2 text-[#424242]">
                 <p className="flex items-start">
@@ -215,13 +215,13 @@ export default function Kontakt() {
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">📞</span>
-                  <a href="tel:77xxxxxx" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="tel:77xxxxxx" className="hover:text-[#1A9BA3] transition-colors">
                     77 XX XX XX
                   </a>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-2">✉️</span>
-                  <a href="mailto:tromso@atventilasjon.no" className="hover:text-[#2E7D32] transition-colors">
+                  <a href="mailto:tromso@atventilasjon.no" className="hover:text-[#1A9BA3] transition-colors">
                     tromso@atventilasjon.no
                   </a>
                 </p>
@@ -232,7 +232,7 @@ export default function Kontakt() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#E0F7FA] to-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4 text-[#212121]">Har du spørsmål?</h2>
           <p className="text-xl mb-4 text-[#424242]">

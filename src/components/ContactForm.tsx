@@ -45,7 +45,7 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
             placeholder="Ola Nordmann"
           />
         </div>
@@ -62,7 +62,7 @@ export default function ContactForm() {
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
             placeholder="12 34 56 78"
           />
         </div>
@@ -79,7 +79,7 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
             placeholder="ola@example.com"
           />
         </div>
@@ -95,7 +95,7 @@ export default function ContactForm() {
             name="address"
             value={formData.address}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
             placeholder="Gate 1, 0100 Oslo"
           />
         </div>
@@ -111,7 +111,7 @@ export default function ContactForm() {
             required
             value={formData.service}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all bg-white"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all bg-white"
           >
             <option value="">Velg tjeneste</option>
             <option value="ventilasjonsrens">Komplett ventilasjonsrens</option>
@@ -135,7 +135,7 @@ export default function ContactForm() {
             name="date"
             value={formData.date}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all"
           />
         </div>
 
@@ -151,7 +151,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={5}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1A9BA3] focus:border-transparent transition-all resize-none"
             placeholder="Beskriv ditt behov..."
           />
         </div>
@@ -159,14 +159,14 @@ export default function ContactForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="w-full bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-bold py-4 px-6 rounded-lg transition-all shadow-md hover:shadow-lg"
+          className="w-full bg-[#1A9BA3] hover:bg-[#148088] text-white font-bold py-4 px-6 rounded-lg transition-all shadow-md hover:shadow-lg"
         >
           Send forespørsel
         </button>
 
         {/* Success Message */}
         {submitted && (
-          <div className="bg-[#E8F5E9] border border-[#2E7D32] text-[#1B5E20] px-4 py-3 rounded-lg">
+          <div className="bg-[#E0F7FA] border border-[#1A9BA3] text-[#148088] px-4 py-3 rounded-lg">
             ✓ Takk! Vi har mottatt din henvendelse og kommer tilbake til deg så snart som mulig.
           </div>
         )}

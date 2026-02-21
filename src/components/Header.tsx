@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold hover:opacity-80 transition-opacity">
-            AT <span className="text-[#2E7D32]">Ventilasjon</span>
+            AT <span className="text-[#1A9BA3]">Ventilasjon</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -30,14 +30,14 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-[#424242] hover:text-[#2E7D32] transition-colors font-medium text-[15px]"
+                className="text-[#424242] hover:text-[#1A9BA3] transition-colors font-medium text-[15px]"
               >
                 {item.name}
               </Link>
             ))}
             <Link
               href="/kontakt"
-              className="bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors shadow-sm"
+              className="bg-[#1A9BA3] hover:bg-[#148088] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors shadow-sm"
             >
               Kontakt oss
             </Link>
@@ -45,7 +45,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2 rounded-md hover:bg-[#E8F5E9] transition-colors"
+            className="lg:hidden p-2 rounded-md hover:bg-[#E0F7FA] transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -74,7 +74,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block py-2.5 text-[#424242] hover:text-[#2E7D32] transition-colors font-medium"
+                className="block py-2.5 text-[#424242] hover:text-[#1A9BA3] transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
@@ -82,7 +82,7 @@ export default function Header() {
             ))}
             <Link
               href="/kontakt"
-              className="block mt-4 text-center bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              className="block mt-4 text-center bg-[#1A9BA3] hover:bg-[#148088] text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Kontakt oss

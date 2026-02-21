@@ -45,8 +45,8 @@ export default function OmOss() {
           <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Våre verdier</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🎯</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🎯</div>
               <h3 className="text-2xl font-bold text-[#212121] mb-4 text-center">Kvalitet</h3>
               <p className="text-[#757575] text-center">
                 Vi setter alltid kundens behov først og leverer arbeid av høyeste kvalitet. 
@@ -54,8 +54,8 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🤝</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🤝</div>
               <h3 className="text-2xl font-bold text-[#212121] mb-4 text-center">Ærlighet</h3>
               <p className="text-[#757575] text-center">
                 Vi tror på åpen og ærlig kommunikasjon. Våre kunder skal kunne stole på oss, 
@@ -63,8 +63,8 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
-              <div className="w-16 h-16 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🌱</div>
+            <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 bg-[#E0F7FA] rounded-xl flex items-center justify-center text-4xl mb-5 mx-auto">🌱</div>
               <h3 className="text-2xl font-bold text-[#212121] mb-4 text-center">Bærekraft</h3>
               <p className="text-[#757575] text-center">
                 Vi jobber for bedre inneklima og lavere energiforbruk. Det er bra for miljøet 
@@ -84,19 +84,19 @@ export default function OmOss() {
             Alle våre teknikere er fagutdannede, F-gass sertifiserte, og har lang erfaring i bransjen.
           </p>
 
-          <div className="bg-gradient-to-br from-[#E8F5E9] to-white rounded-2xl p-8 border border-[#2E7D32]">
+          <div className="bg-gradient-to-br from-[#E0F7FA] to-white rounded-2xl p-8 border border-[#1A9BA3]">
             <h3 className="text-2xl font-bold text-[#212121] mb-8 text-center">Kompetanse du kan stole på</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
-                <p className="text-4xl font-bold mb-2 text-[#2E7D32]">50+</p>
+                <p className="text-4xl font-bold mb-2 text-[#1A9BA3]">50+</p>
                 <p className="text-[#757575]">Ansatte</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-bold mb-2 text-[#2E7D32]">10+</p>
+                <p className="text-4xl font-bold mb-2 text-[#1A9BA3]">10+</p>
                 <p className="text-[#757575]">År med erfaring</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-bold mb-2 text-[#2E7D32]">100%</p>
+                <p className="text-4xl font-bold mb-2 text-[#1A9BA3]">100%</p>
                 <p className="text-[#757575]">F-gass sertifisert</p>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function OmOss() {
           <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Dekningsområder</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">🏢</span>
                 Oslo
@@ -121,7 +121,7 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">🌊</span>
                 Bergen
@@ -132,7 +132,7 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">⛰️</span>
                 Trondheim
@@ -142,7 +142,7 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">⚓</span>
                 Stavanger
@@ -152,7 +152,7 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">☀️</span>
                 Kristiansand
@@ -162,7 +162,7 @@ export default function OmOss() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#2E7D32] hover:-translate-y-1 hover:shadow-xl transition-all">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:border-[#1A9BA3] hover:-translate-y-1 hover:shadow-xl transition-all">
               <h3 className="text-xl font-bold text-[#212121] mb-3 flex items-center">
                 <span className="text-2xl mr-3">❄️</span>
                 Tromsø

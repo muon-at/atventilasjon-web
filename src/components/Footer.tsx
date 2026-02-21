@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">AT <span className="text-[#43A047]">Ventilasjon</span></h3>
+            <h3 className="text-xl font-bold mb-4">AT <span className="text-[#2AABB3]">Ventilasjon</span></h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Profesjonell ventilasjonsrens og varmepumpeservice i hele Norge.
             </p>
@@ -21,27 +21,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Tjenester</h3>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/ventilasjonsrens" className="text-gray-400 hover:text-[#43A047] transition-colors text-sm">
+                <Link href="/ventilasjonsrens" className="text-gray-400 hover:text-[#2AABB3] transition-colors text-sm">
                   Ventilasjonsrens
                 </Link>
               </li>
               <li>
-                <Link href="/varmepumpeservice" className="text-gray-400 hover:text-[#43A047] transition-colors text-sm">
+                <Link href="/varmepumpeservice" className="text-gray-400 hover:text-[#2AABB3] transition-colors text-sm">
                   Rens av varmepumpe
                 </Link>
               </li>
               <li>
-                <Link href="/filterabonnement" className="text-gray-400 hover:text-[#43A047] transition-colors text-sm">
+                <Link href="/filterabonnement" className="text-gray-400 hover:text-[#2AABB3] transition-colors text-sm">
                   Filterabonnement
                 </Link>
               </li>
               <li>
-                <Link href="/om-oss" className="text-gray-400 hover:text-[#43A047] transition-colors text-sm">
+                <Link href="/om-oss" className="text-gray-400 hover:text-[#2AABB3] transition-colors text-sm">
                   Om oss
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt" className="text-gray-400 hover:text-[#43A047] transition-colors text-sm">
+                <Link href="/kontakt" className="text-gray-400 hover:text-[#2AABB3] transition-colors text-sm">
                   Kontakt
                 </Link>
               </li>
@@ -53,12 +53,12 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Kontakt oss</h3>
             <ul className="space-y-2.5 text-gray-400 text-sm">
               <li>
-                <a href="tel:22xxxxxx" className="hover:text-[#43A047] transition-colors">
+                <a href="tel:22xxxxxx" className="hover:text-[#2AABB3] transition-colors">
                   Telefon: 22 XX XX XX
                 </a>
               </li>
               <li>
-                <a href="mailto:post@atventilasjon.no" className="hover:text-[#43A047] transition-colors">
+                <a href="mailto:post@atventilasjon.no" className="hover:text-[#2AABB3] transition-colors">
                   E-post: post@atventilasjon.no
                 </a>
               </li>

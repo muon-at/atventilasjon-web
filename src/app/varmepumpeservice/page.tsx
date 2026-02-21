@@ -67,7 +67,7 @@ export default function Varmepumpeservice() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
-              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">❄️</div>
+              <div className="w-14 h-14 bg-[#E0F7FA] rounded-2xl flex items-center justify-center text-3xl mb-5">❄️</div>
               <h3 className="text-xl font-bold text-[#212121] mb-3">Luft-til-luft</h3>
               <p className="text-[#757575]">
                 Den mest vanlige typen varmepumpe i Norge. Vi servicerer alle kjente merker som 
@@ -76,7 +76,7 @@ export default function Varmepumpeservice() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
-              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">💧</div>
+              <div className="w-14 h-14 bg-[#E0F7FA] rounded-2xl flex items-center justify-center text-3xl mb-5">💧</div>
               <h3 className="text-xl font-bold text-[#212121] mb-3">Luft-til-vann</h3>
               <p className="text-[#757575]">
                 Varmepumpe som kobles til vannbårent varmesystem. Krever spesialkompetanse 
@@ -85,7 +85,7 @@ export default function Varmepumpeservice() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
-              <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">🌍</div>
+              <div className="w-14 h-14 bg-[#E0F7FA] rounded-2xl flex items-center justify-center text-3xl mb-5">🌍</div>
               <h3 className="text-xl font-bold text-[#212121] mb-3">Væske-til-vann</h3>
               <p className="text-[#757575]">
                 Bergvarme og jordvarme. Vi har erfaring med alle typer grunnvarmeinstallasjoner 
@@ -106,27 +106,27 @@ export default function Varmepumpeservice() {
               <h3 className="text-xl font-bold text-[#212121] mb-4">Standard service</h3>
               <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Rengjøring av luftfiltre</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Rengjøring av varmeveksler</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Kontroll av kjølemedium (F-gass)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Test av alle funksjoner</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Kontroll av kondensvannslange</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Rapport med anbefalinger</span>
                 </li>
               </ul>
@@ -136,27 +136,27 @@ export default function Varmepumpeservice() {
               <h3 className="text-xl font-bold text-[#212121] mb-4">Utvidet service</h3>
               <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Komplett rengjøring innvendig og utvendig</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Etterfylling av kjølemedium ved behov</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Lekkasjesøk og tetting</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Kontroll av elektrisk anlegg</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Ytelsesmåling og optimalisering</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
+                  <span className="text-[#1A9BA3] mr-2 font-bold">✓</span>
                   <span>Detaljert servicerapport</span>
                 </li>
               </ul>
@@ -171,9 +171,9 @@ export default function Varmepumpeservice() {
           <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Priser</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#2E7D32]">
+            <div className="bg-white rounded-2xl p-8 shadow-md border-2 border-[#1A9BA3]">
               <h3 className="text-2xl font-bold text-[#212121] mb-4">Rens av varmepumpe</h3>
-              <p className="text-5xl font-bold text-[#2E7D32] mb-2">2 590,-</p>
+              <p className="text-5xl font-bold text-[#1A9BA3] mb-2">2 590,-</p>
               <p className="text-sm text-[#757575] mb-4">inkl. mva</p>
               <p className="text-[#424242] mb-4">
                 Anbefalt årlig rens for luft-til-luft varmepumper
@@ -186,9 +186,9 @@ export default function Varmepumpeservice() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-[#E8F5E9] to-white rounded-2xl p-8 shadow-md border border-[#2E7D32]">
+            <div className="bg-gradient-to-br from-[#E0F7FA] to-white rounded-2xl p-8 shadow-md border border-[#1A9BA3]">
               <h3 className="text-2xl font-bold text-[#212121] mb-4">Utvidet service</h3>
-              <p className="text-5xl font-bold text-[#2E7D32] mb-2">Fra 3 490,-</p>
+              <p className="text-5xl font-bold text-[#1A9BA3] mb-2">Fra 3 490,-</p>
               <p className="text-sm text-[#757575] mb-4">inkl. mva</p>
               <p className="text-[#424242] mb-4">
                 Komplett service for alle typer varmepumper
@@ -217,7 +217,7 @@ export default function Varmepumpeservice() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#E0F7FA] to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6 text-[#212121]">Bestill varmepumpeservice i dag</h2>
           <p className="text-xl mb-8 text-[#424242]">
@@ -225,7 +225,7 @@ export default function Varmepumpeservice() {
           </p>
           <Link
             href="/kontakt"
-            className="inline-block bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="inline-block bg-[#1A9BA3] hover:bg-[#148088] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Bestill service
           </Link>
