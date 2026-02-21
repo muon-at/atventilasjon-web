@@ -1,144 +1,210 @@
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
+import ContactForm from '@/components/ContactForm';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'AT Ventilasjon - Profesjonell ventilasjonsrens og varmepumpeservice',
-  description: 'AT Ventilasjon tilbyr profesjonell ventilasjonsrens, varmepumpeservice og filterabonnement i hele Norge. Bestill befaring i dag!',
+  title: 'AT Ventilasjon - Rene resultater. Trygg drift.',
+  description: 'Profesjonell ventilasjonsrens og varmepumpeservice i hele Norge. Sertifisert og erfaren. Bestill befaring i dag!',
 };
+
+const areas = [
+  'Oslo', 'Bærum', 'Asker', 'Drammen', 'Lillestrøm', 'Jessheim', 
+  'Ski', 'Ås', 'Moss', 'Fredrikstad', 'Sarpsborg', 'Halden', 
+  'Kongsberg', 'Tønsberg', 'Sandefjord', 'Omegn'
+];
 
 export default function Home() {
   return (
     <>
       <Hero
-        title="Profesjonell ventilasjonsrens og varmepumpeservice"
-        subtitle="Vi sørger for rent og sunt inneklima i ditt hjem eller bedrift. Med over 10 års erfaring og kontorer i hele Norge."
+        title="Rene resultater. Trygg drift."
+        subtitle="Profesjonell ventilasjonsrens og varmepumpeservice i hele Norge"
         ctaText="Bestill befaring"
-        ctaLink="/kontakt"
+        ctaLink="#kontakt"
+        badge="✅ Sertifisert og profesjonell"
       />
 
+      {/* Trust Items */}
+      <section className="py-12 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <div className="text-3xl font-bold text-[#2E7D32] mb-1">10+</div>
+              <p className="text-sm text-[#757575]">års erfaring</p>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-[#2E7D32] mb-1">1000+</div>
+              <p className="text-sm text-[#757575]">fornøyde kunder</p>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-[#2E7D32] mb-1">24/7</div>
+              <p className="text-sm text-[#757575]">kundeservice</p>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-[#2E7D32] mb-1">100%</div>
+              <p className="text-sm text-[#757575]">garantert kvalitet</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1a365d] mb-4">Våre tjenester</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Vi tilbyr helhetlige løsninger for ventilasjon, varmepumper og luftfiltre
+            <h2 className="text-4xl font-bold text-[#212121] mb-4">Våre tjenester</h2>
+            <p className="text-xl text-[#757575] max-w-3xl mx-auto">
+              Helhetlige løsninger for ventilasjon, varmepumper og luftfiltre
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
-              title="Ventilasjonsrens"
-              description="Profesjonell rengjøring av ventilasjonsanlegg for bedre inneklima og lavere energikostnader. Vi utfører grundig inspeksjon, rengjøring og dokumentasjon."
+              title="Komplett ventilasjonsrens"
+              description="Profesjonell rengjøring av hele ventilasjonsanlegget. Grundig inspeksjon, rengjøring og dokumentasjon for bedre inneklima."
               icon="🌬️"
               link="/ventilasjonsrens"
-              price="Fra 4 500 kr"
+              price="Fra 3 990,- inkl. mva"
             />
             <ServiceCard
-              title="Varmepumpeservice"
-              description="Service og vedlikehold av alle typer varmepumper. F-gass sertifiserte teknikere som sikrer optimal ytelse og lang levetid på ditt anlegg."
+              title="Rens av varmepumpe"
+              description="Service og rengjøring av alle typer varmepumper. Sertifiserte teknikere som sikrer optimal ytelse og lang levetid."
               icon="♨️"
               link="/varmepumpeservice"
-              price="Fra 1 290 kr"
+              price="Fra 2 590,- inkl. mva"
+            />
+            <ServiceCard
+              title="Service og filterbytte"
+              description="Regelmessig service og profesjonelt filterbytte for å opprettholde god luftkvalitet og effektivitet."
+              icon="🔧"
+              price="Fra 990,-"
             />
             <ServiceCard
               title="Filterabonnement"
-              description="Aldri glem å bytte filter igjen! Vi leverer nye filtre rett hjem til deg 1-2 ganger i året. Enkelt, praktisk og trygt for inneklima."
+              description="Aldri glem å bytte filter igjen! Automatisk levering av nye filtre 1-2 ganger i året. Enkelt og bekymringsfritt."
               icon="🔄"
               link="/filterabonnement"
-              price="Fra 299 kr/halvår"
+              price="Automatisk levering"
+              external={false}
+            />
+            <ServiceCard
+              title="Rens av kjøkkenventilasjon"
+              description="Spesialisert rengjøring av kjøkkenventilasjonsanlegg for næringsdrivende. Overholder alle krav til brannsikkerhet."
+              icon="🍳"
+              price="For næring"
+            />
+            <ServiceCard
+              title="Skånsom overflaterens"
+              description="Profesjonell rens av overflater og kanaler med skånsomme metoder som ivaretar kvalitet og levetid."
+              icon="✨"
+              price="Skreddersydd pris"
             />
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1a365d] mb-4">Hvorfor velge oss?</h2>
+            <h2 className="text-4xl font-bold text-[#212121] mb-4">Hvorfor ren ventilasjon?</h2>
+            <p className="text-xl text-[#757575] max-w-3xl mx-auto">
+              Rene ventilasjonsanlegg gir bedre helse, lavere energikostnader og lengre levetid
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-5xl mb-4">✓</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-2">Erfaring</h3>
-              <p className="text-gray-600">Over 10 års erfaring i bransjen</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Bedre luftkvalitet</h3>
+                <p className="text-[#757575]">Fjerner støv, bakterier og allergener for et sunnere inneklima</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl mb-4">🛡️</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-2">Sertifisert</h3>
-              <p className="text-gray-600">F-gass sertifiserte teknikere</p>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Lavere strømforbruk</h3>
+                <p className="text-[#757575]">Rene anlegg bruker opptil 30% mindre energi</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl mb-4">🇳🇴</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-2">Landsdekkende</h3>
-              <p className="text-gray-600">Kontorer i hele Norge</p>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Lengre levetid</h3>
+                <p className="text-[#757575]">Regelmessig vedlikehold forlenger anleggets levetid betydelig</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl mb-4">⭐</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-2">Kvalitet</h3>
-              <p className="text-gray-600">Høy kundetilfredshet</p>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Redusert støy</h3>
+                <p className="text-[#757575]">Rene vifter og kanaler gir merkbart mindre støy</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Brannsikkerhet</h3>
+                <p className="text-[#757575]">Rengjøring reduserer brannfaren i ventilasjonskanaler</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#E8F5E9] rounded-full flex items-center justify-center">
+                <span className="text-2xl">✓</span>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#212121] mb-2">Dokumentasjon</h3>
+                <p className="text-[#757575]">Fullstendig rapport etter hvert serviceoppdrag</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Customer Reviews */}
-      <section className="py-20 bg-gray-50">
+      {/* Areas Section */}
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1a365d] mb-4">Hva kundene våre sier</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#212121] mb-4">Dekningsområder</h2>
+            <p className="text-xl text-[#757575]">
+              Vi betjener hele Østlandet og Sørlandet
+            </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-orange-500 text-2xl mb-4">★★★★★</div>
-              <p className="text-gray-700 mb-4">
-                "Meget profesjonelt utført arbeid. Teknikerne var punktlige og grundige. Anbefales!"
-              </p>
-              <p className="font-semibold text-[#1a365d]">- Kari N., Oslo</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-orange-500 text-2xl mb-4">★★★★★</div>
-              <p className="text-gray-700 mb-4">
-                "Fornøyd med varmepumpeservicen. God service og ryddige håndverkere."
-              </p>
-              <p className="font-semibold text-[#1a365d]">- Per A., Bergen</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="text-orange-500 text-2xl mb-4">★★★★★</div>
-              <p className="text-gray-700 mb-4">
-                "Filterabonnementet er genielt! Slipper å huske på det selv. Topp service!"
-              </p>
-              <p className="font-semibold text-[#1a365d]">- Linda S., Trondheim</p>
-            </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {areas.map((area) => (
+              <span
+                key={area}
+                className="inline-block bg-white border border-gray-200 px-5 py-2.5 rounded-full text-sm font-medium text-[#424242] hover:border-[#2E7D32] hover:text-[#2E7D32] transition-colors"
+              >
+                {area}
+              </span>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Klar for bedre inneklima?</h2>
-          <p className="text-xl mb-8">
-            Kontakt oss i dag for en uforpliktende befaring og pristilbud
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/kontakt"
-              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
-            >
-              Bestill befaring
-            </Link>
-            <Link
-              href="/om-oss"
-              className="inline-block bg-white hover:bg-gray-100 text-[#1a365d] font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
-            >
-              Les mer om oss
-            </Link>
+      {/* Contact Form Section */}
+      <section id="kontakt" className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#212121] mb-4">Bestill befaring</h2>
+            <p className="text-xl text-[#757575]">
+              Fyll ut skjemaet så tar vi kontakt for en uforpliktende befaring og pristilbud
+            </p>
           </div>
+          <ContactForm />
         </div>
       </section>
     </>

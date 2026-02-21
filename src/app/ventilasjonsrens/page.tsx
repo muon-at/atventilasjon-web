@@ -3,8 +3,8 @@ import FAQ from '@/components/FAQ';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Ventilasjonsrens - AT Ventilasjon',
-  description: 'Profesjonell ventilasjonsrens for bedre inneklima og lavere energikostnader. Vi anbefaler rens hvert 3-5 år. Priser fra 4500 kr.',
+  title: 'Komplett ventilasjonsrens - AT Ventilasjon',
+  description: 'Profesjonell ventilasjonsrens for bedre inneklima og lavere energikostnader. Vi anbefaler rens hvert 3-5 år. Fra 3 990,- inkl. mva.',
 };
 
 export default function Ventilasjonsrens() {
@@ -34,15 +34,16 @@ export default function Ventilasjonsrens() {
   return (
     <>
       <Hero
-        title="Ventilasjonsrens"
+        title="Komplett ventilasjonsrens"
         subtitle="Profesjonell rengjøring for bedre inneklima og lavere energikostnader"
+        badge="🌬️ Fra 3 990,- inkl. mva"
       />
 
       {/* Introduction */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-6">Hvorfor er ventilasjonsrens viktig?</h2>
-          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+          <h2 className="text-3xl font-bold text-[#212121] mb-6">Hvorfor er ventilasjonsrens viktig?</h2>
+          <div className="prose prose-lg max-w-none text-[#424242] leading-relaxed space-y-4">
             <p>
               Ventilasjonsanlegget er hjemmets eller bedriftens lunger. Over tid samler det seg støv, bakterier, 
               sopp og andre partikler i kanalene. Dette kan føre til dårligere inneklima, økt energiforbruk, 
@@ -61,42 +62,42 @@ export default function Ventilasjonsrens() {
       </section>
 
       {/* Process */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-12 text-center">Vår prosess</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-12 text-center">Vår prosess</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-4xl mb-4 text-orange-500">1</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Inspeksjon</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-12 h-12 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-2xl font-bold text-[#2E7D32] mb-4">1</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Inspeksjon</h3>
+              <p className="text-[#757575]">
                 Vi starter med en grundig inspeksjon av anlegget. Vi tar bilder og vurderer 
                 tilstand og behov for rengjøring.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-4xl mb-4 text-orange-500">2</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Rengjøring</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-12 h-12 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-2xl font-bold text-[#2E7D32] mb-4">2</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Rengjøring</h3>
+              <p className="text-[#757575]">
                 Vi rengjør alle kanaler, ventilasjonsaggregatet og ventilasjonsventilene 
                 med profesjonelt utstyr.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-4xl mb-4 text-orange-500">3</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Måling</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-12 h-12 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-2xl font-bold text-[#2E7D32] mb-4">3</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Måling</h3>
+              <p className="text-[#757575]">
                 Etter rengjøring måler vi luftmengder for å sikre at anlegget fungerer 
                 optimalt og i henhold til tekniske krav.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-4xl mb-4 text-orange-500">4</div>
-              <h3 className="text-xl font-bold text-[#1a365d] mb-3">Rapport</h3>
-              <p className="text-gray-700">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-200">
+              <div className="w-12 h-12 bg-[#E8F5E9] rounded-xl flex items-center justify-center text-2xl font-bold text-[#2E7D32] mb-4">4</div>
+              <h3 className="text-xl font-bold text-[#212121] mb-3">Rapport</h3>
+              <p className="text-[#757575]">
                 Du får en detaljert rapport med bilder før og etter, målinger og anbefalinger 
                 for videre vedlikehold.
               </p>
@@ -108,13 +109,14 @@ export default function Ventilasjonsrens() {
       {/* Pricing */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">Priser</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Priser</h2>
           
-          <div className="bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] rounded-lg p-8 text-white mb-8">
+          <div className="bg-gradient-to-br from-[#E8F5E9] to-white rounded-2xl p-8 border border-[#2E7D32] mb-8">
             <div className="text-center">
-              <p className="text-xl mb-2">Standard ventilasjonsrens</p>
-              <p className="text-5xl font-bold mb-4">Fra 4 500 kr</p>
-              <p className="text-gray-200">
+              <p className="text-xl mb-2 text-[#424242]">Komplett ventilasjonsrens</p>
+              <p className="text-5xl font-bold mb-4 text-[#2E7D32]">Fra 3 990,-</p>
+              <p className="text-sm text-[#757575] mb-1">inkl. mva</p>
+              <p className="text-[#424242] mt-4">
                 Prisen avhenger av anleggets størrelse og kompleksitet. Vi gir alltid et 
                 bindende pristilbud etter befaring.
               </p>
@@ -122,45 +124,45 @@ export default function Ventilasjonsrens() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold text-lg text-[#1a365d] mb-3">Inkludert i prisen:</h3>
-              <ul className="space-y-2 text-gray-700">
+            <div className="border border-gray-200 rounded-xl p-6 bg-white">
+              <h3 className="font-bold text-lg text-[#212121] mb-4">Inkludert i prisen:</h3>
+              <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Grundig inspeksjon</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Rengjøring av kanaler og aggregat</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Måling av luftmengder</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">✓</span>
+                  <span className="text-[#2E7D32] mr-2 font-bold">✓</span>
                   <span>Detaljert rapport med bilder</span>
                 </li>
               </ul>
             </div>
 
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold text-lg text-[#1a365d] mb-3">Tilleggstjenester:</h3>
-              <ul className="space-y-2 text-gray-700">
+            <div className="border border-gray-200 rounded-xl p-6 bg-white">
+              <h3 className="font-bold text-lg text-[#212121] mb-4">Tilleggstjenester:</h3>
+              <ul className="space-y-3 text-[#424242]">
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">•</span>
+                  <span className="text-[#2E7D32] mr-2">•</span>
                   <span>Ekstra grundig vask ved kraftig tilsmussing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">•</span>
+                  <span className="text-[#2E7D32] mr-2">•</span>
                   <span>Utskifting av filtre</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">•</span>
+                  <span className="text-[#2E7D32] mr-2">•</span>
                   <span>Service av ventilasjonsaggregat</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-2">•</span>
+                  <span className="text-[#2E7D32] mr-2">•</span>
                   <span>Filterabonnement</span>
                 </li>
               </ul>
@@ -170,23 +172,23 @@ export default function Ventilasjonsrens() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FAFAFA]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">Ofte stilte spørsmål</h2>
+          <h2 className="text-3xl font-bold text-[#212121] mb-8 text-center">Ofte stilte spørsmål</h2>
           <FAQ items={faqItems} />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-[#1a365d] to-[#2d4a7c] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E8F5E9] to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Klar for renere luft?</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-4xl font-bold mb-6 text-[#212121]">Klar for renere luft?</h2>
+          <p className="text-xl mb-8 text-[#424242]">
             Kontakt oss for en uforpliktende befaring og pristilbud
           </p>
           <Link
             href="/kontakt"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
+            className="inline-block bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Bestill befaring
           </Link>

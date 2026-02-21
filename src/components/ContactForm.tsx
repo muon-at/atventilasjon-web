@@ -29,11 +29,11 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-8">
+    <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
       <div className="space-y-6">
         {/* Name */}
         <div>
-          <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="name" className="block text-sm font-semibold text-[#212121] mb-2">
             Navn *
           </label>
           <input
@@ -43,14 +43,14 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
             placeholder="Ola Nordmann"
           />
         </div>
 
         {/* Phone */}
         <div>
-          <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="phone" className="block text-sm font-semibold text-[#212121] mb-2">
             Telefon *
           </label>
           <input
@@ -60,14 +60,14 @@ export default function ContactForm() {
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
             placeholder="12 34 56 78"
           />
         </div>
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="email" className="block text-sm font-semibold text-[#212121] mb-2">
             E-post *
           </label>
           <input
@@ -77,14 +77,14 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all"
             placeholder="ola@example.com"
           />
         </div>
 
         {/* Service */}
         <div>
-          <label htmlFor="service" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="service" className="block text-sm font-semibold text-[#212121] mb-2">
             Tjeneste *
           </label>
           <select
@@ -93,19 +93,22 @@ export default function ContactForm() {
             required
             value={formData.service}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all bg-white"
           >
             <option value="">Velg tjeneste</option>
-            <option value="ventilasjonsrens">Ventilasjonsrens</option>
-            <option value="varmepumpe">Varmepumpeservice</option>
+            <option value="ventilasjonsrens">Komplett ventilasjonsrens</option>
+            <option value="varmepumpe">Rens av varmepumpe</option>
+            <option value="service">Service og filterbytte</option>
             <option value="filter">Filterabonnement</option>
+            <option value="kjokken">Rens av kjøkkenventilasjon</option>
+            <option value="overflate">Skånsom overflaterens</option>
             <option value="annet">Annet</option>
           </select>
         </div>
 
         {/* Message */}
         <div>
-          <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="message" className="block text-sm font-semibold text-[#212121] mb-2">
             Melding *
           </label>
           <textarea
@@ -115,7 +118,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={5}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent transition-all resize-none"
             placeholder="Beskriv ditt behov..."
           />
         </div>
@@ -123,15 +126,15 @@ export default function ContactForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 rounded-lg transition-colors shadow-lg hover:shadow-xl"
+          className="w-full bg-[#2E7D32] hover:bg-[#1B5E20] text-white font-bold py-4 px-6 rounded-lg transition-all shadow-md hover:shadow-lg"
         >
           Send forespørsel
         </button>
 
         {/* Success Message */}
         {submitted && (
-          <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg">
-            Takk! Vi har mottatt din henvendelse og kommer tilbake til deg så snart som mulig.
+          <div className="bg-[#E8F5E9] border border-[#2E7D32] text-[#1B5E20] px-4 py-3 rounded-lg">
+            ✓ Takk! Vi har mottatt din henvendelse og kommer tilbake til deg så snart som mulig.
           </div>
         )}
       </div>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Varmepumpeservice - AT Ventilasjon',
-  description: 'Profesjonell service og vedlikehold av alle typer varmepumper. F-gass sertifiserte teknikere. Priser fra 1290 kr.',
+  description: 'Profesjonell service og vedlikehold av alle typer varmepumper. F-gass sertifiserte teknikere. Priser fra 2590 kr.',
 };
 
 export default function Varmepumpeservice() {
@@ -172,7 +172,7 @@ export default function Varmepumpeservice() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white rounded-lg p-8 shadow-lg border-2 border-gray-200">
               <h3 className="text-2xl font-bold text-[#1a365d] mb-4">Standard service</h3>
-              <p className="text-5xl font-bold text-orange-600 mb-4">1 290 kr</p>
+              <p className="text-5xl font-bold text-orange-600 mb-4">2 590 kr</p>
               <p className="text-gray-700 mb-4">
                 Anbefalt årlig service for luft-til-luft varmepumper
               </p>

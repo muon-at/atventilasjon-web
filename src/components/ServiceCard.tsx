@@ -4,25 +4,56 @@ interface ServiceCardProps {
   title: string;
   description: string;
   icon: string;
-  link: string;
+  link?: string;
   price?: string;
+  external?: boolean;
 }
 
-export default function ServiceCard({ title, description, icon, link, price }: ServiceCardProps) {
-  return (
-    <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow border-t-4 border-orange-500">
-      <div className="text-5xl mb-4">{icon}</div>
-      <h3 className="text-2xl font-bold text-[#1a365d] mb-4">{title}</h3>
-      <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
+export default function ServiceCard({ title, description, icon, link, price, external }: ServiceCardProps) {
+  const cardContent = (
+    <>
+      <div className="w-14 h-14 bg-[#E8F5E9] rounded-2xl flex items-center justify-center text-3xl mb-5">
+        {icon}
+      </div>
+      <h3 className="text-2xl font-bold text-[#212121] mb-3">{title}</h3>
+      <p className="text-[#757575] mb-6 leading-relaxed flex-grow">{description}</p>
       {price && (
-        <p className="text-lg font-semibold text-orange-600 mb-4">{price}</p>
+        <p className="text-xl font-bold text-[#2E7D32] mb-5">{price}</p>
       )}
-      <Link
-        href={link}
-        className="inline-block bg-[#1a365d] hover:bg-[#2d4a7c] text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-      >
-        Les mer
+      {link && !external && (
+        <span className="inline-block text-[#2E7D32] font-semibold hover:underline">
+          Les mer →
+        </span>
+      )}
+      {link && external && (
+        <span className="inline-block text-[#2E7D32] font-semibold hover:underline">
+          Gå til tjeneste →
+        </span>
+      )}
+    </>
+  );
+
+  const className = "bg-white rounded-2xl shadow-md p-8 border border-gray-200 hover:border-[#2E7D32] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full";
+
+  if (link && external) {
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer" className={className}>
+        {cardContent}
+      </a>
+    );
+  }
+
+  if (link) {
+    return (
+      <Link href={link} className={className}>
+        {cardContent}
       </Link>
+    );
+  }
+
+  return (
+    <div className={className}>
+      {cardContent}
     </div>
   );
 }
